@@ -1,0 +1,128 @@
+body{
+    font-family: "Lato", sans-serif;
+}
+.container{
+ width:900px;
+  padding: 10px;
+  border: 2px solid gray;
+  height:600px;
+  margin-left:200px;
+  margin-top:30px;
+}
+
+.header{
+	width:898px;
+	 padding: 10px;
+	 margin-top:-10px;
+	 margin-left:-10px;
+	
+	background: #0078d7;
+	color:white;
+	font-size:20px;
+	
+	}
+#wron{
+	float:left;
+	margin-left:860px;
+	margin-top:-40px;
+	color:white;
+	
+}
+#fas{
+	font-size:20px;
+	float:right;
+	margin-top:-33px;
+	color:white;
+    margin-right:100px;	
+}
+.names{
+	
+	    margin-top:30px;
+		float:right;
+	  margin-right:90px;
+	  outline:none! important;
+border:transparent;
+border-bottom:1px solid grey;
+ 
+
+	
+}
+		
+		
+
+.cal1{
+	 margin-top:-50px;
+	 margin-left:0px;
+	  outline:none! important;
+border:transparent;
+border-bottom:1px solid grey;
+}
+
+#calendar1{
+	margin-top:70px;
+	margin-left:150px;
+	color:grey;
+	}
+#calendar2{
+	margin-top:70px;
+	margin-left:150px;
+    color:grey;
+}
+#drop1{
+	color:grey;
+}
+#drop2{
+	color:grey;
+}
+.button{
+	margin-left:120px;
+	margin-top:-20px;
+	 
+}
+#quli{
+	float:right;
+	margin-bottom:100px;
+	margin-right:90px;
+ outline:none! important;
+border:transparent;
+border-bottom:1px solid grey;
+}
+#fem{
+	margin-left:107px;
+	margin-top:-100px;	
+}
+.cont{
+	margin-left:25px;
+	margin-top:20px;
+ outline:none! important;
+border:transparent;
+border-bottom:1px solid grey;
+}
+#mail{
+	margin-left:180px;
+ outline:none! important;
+border:transparent;
+border-bottom:1px solid grey;
+}
+.text{
+	margin-left:170px;
+ outline:none! important;
+border:transparent;
+border-bottom:1px solid grey;
+}
+	.cancle{
+		border:none;
+	 color:white;
+	 padding:5px;
+	 width:100px;
+	}
+
+ input[type="date"]:before {
+    content: attr(placeholder) !important;
+    color: #aaa;
+    margin-right: 0.5em;
+  }
+  input[type="date"]:focus:before,
+  input[type="joining date"]:valid:before {
+    content: "";
+  }
